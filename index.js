@@ -7,7 +7,7 @@ $(document).ready(function () {
         event.preventDefault();
         console.log('SUBMIT THIS LOAN REQUEST!!');
         var requestData = {
-            'model-namespace': 'https://kiegroup.org/dmn/_D89BFD0C-114B-4BFA-A986-134CD385F2CD',
+            'model-namespace': 'https://kiegroup.org/dmn/LoanApproval_1.0.0',
             'model-name': 'Loan Approval',
             'dmn-context': {
                     'Credit Score': Number($('#creditScore').val()),
